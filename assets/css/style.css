@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    background-image: url('../images/coins_bg.jpg')
+}
+
+.container {
+    background-image: url('../images/gallywix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+.jumbotron {
+    padding: 15px;
+    background-color: rgba(146, 137, 5, 0.562);
+    text-shadow: 1px 1px #3b3700;
+}
+
+.dollars {
+    font-size: 11px;
+    color: goldenrod;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkmagenta;
+}
+
+h3,
+h5 {
+    color: #eecffe;
+}
