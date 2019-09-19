@@ -8,7 +8,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css'>
     <link rel='stylesheet' href='assets/css/style.css'>
-    <title>Gem-Collector-Game</title>
+    <title>Greedy Goblin Gems</title>
 </head>
 
 <body>
@@ -17,7 +17,11 @@
 
         <br>
         <div class='row'>
-
+            <!--
+#
+#
+# This is where my Jumbotron and Game Description starts
+-->
             <div class='col'>
                 <div class='jumbotron bbg-transparent text-center'>
                     <h1>
@@ -41,6 +45,11 @@
                 </div>
             </div>
         </div>
+        <!--
+#
+#
+# This is where my SCORES section starts
+-->
         <div class='row text-center '>
             <div class='col-6 text-left'>
 
@@ -62,57 +71,86 @@
 
                 </div>
             </div>
-
-
-
-
+            <!--
+#
+#
+# This is where my GEMS section starts
+-->
             <div class='col-6'>
+                <!--  bootstrap hover effects from (https://miketricking.github.io/bootstrap-image-hover/)-->
+                <div class='row'>
+                    <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
+                        <div class='hovereffect'>
+                            <img class='img-responsive' src='assets/images/blueGem.png' alt=''>
+                            <div class='overlay' id='button-1'>
+                                <h2>Blue</h2>
 
-
-                <!--  i want to experiment with hover effects here and it wasnt working after tinkering with it, will change tonight 9/18 or tomorrow
-                        <div class="view overlay zoom">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(131).jpg" class="img-fluid " alt="smaple image">
-                     <div class="mask flex-center">
-                     <p class="white-text">Zoom effect</p>
+                            </div>
                         </div>
-                        </div>-->
+                    </div>
+
+                    <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
+                        <div class='hovereffect'>
+                            <img class='img-responsive' src='assets/images/purpleGem.jpg' alt='Purple'>
+                            <div class='overlay' id='button-2'>
+                                <h2>Purple</h2>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
+                        <div class='hovereffect'>
+                            <img class='img-responsive' src='assets/images/greenGem.jpg' alt='Green'>
+                            <div class='overlay' id='button-3'>
+                                <h2>Green</h2>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
+                        <div class='hovereffect'>
+                            <img class='img-responsive' src='assets/images/redGem.jpg' alt=Red ''>
+                            <div class='overlay' id='button-4'>
+                                <h2>Red</h2>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
-                <img src="assets/images/blueGem.png" id='button-1' class="rounded float-left" alt="Blue Gem">
 
 
 
+                <!--
+#
+#
+#
+# OLD BUTTONS
+                 <button type='button' class='btn btn-primary' id='button-1'>Gem 1</button> 
+                <img src='assets/images/blueGem.png' id='button-1' class='rounded float-left' alt='Blue Gem'>
+                <img src='assets/images/greenGem.jpg' id='button-2' class='rounded float-left' alt='Green Gem'>
+                <button type='button' class='btn btn-primary' id='button-2'>Gem 2</button>
 
-                <!-- <button type='button' class='btn btn-primary' id='button-1'>Gem 1</button> -->
+                <img src='assets/images/purpleGem.jpg' id='button-3' class='rounded float-left' alt='Purple Gem'>
+                <button type='button' class='btn btn-primary' id='button-3'>Gem 3</button>
 
+                <img src='assets/images/redGem.jpg' id='button-4' class='rounded float-left' alt='Red Gem'>
 
+                <<button type='button' class='btn btn-primary' id='button-4'>Gem 4</button>
 
-                <img src="assets/images/greenGem.jpg" id='button-2' class="rounded float-left" alt="Green Gem">
-                <!-- <button type='button' class='btn btn-primary' id='button-2'>Gem 2</button> -->
-
-
-                <img src="assets/images/purpleGem.jpg" id='button-3' class="rounded float-left" alt="Purple Gem">
-                <!-- <button type='button' class='btn btn-primary' id='button-3'>Gem 3</button> -->
-
-
-
-                <!-- <button type='button' class='btn btn-primary' id='button-4'>Gem 4</button> -->
-
-                <img src="assets/images/redGem.jpg" id='button-4' class="rounded float-left" alt='Red Gem'>
-
+-->
             </div>
 
-        </div>
 
 
 
 
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js'></script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
 
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
-
-        <script src='assets/javascript/game.js'></script>
+            <script src='assets/javascript/game.js'></script>
 
 </body>
 
