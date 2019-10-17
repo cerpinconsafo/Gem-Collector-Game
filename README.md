@@ -1,6 +1,5 @@
 # Greedy Goblin Gem Collector Game
-#### week 4 jQuery
-#### JS/jQuery
+#### week 4 jQuery - JS/jQuery - Patrick Skolsky
 ----
 
 ## Table of Contents
