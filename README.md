@@ -1,6 +1,7 @@
 # Greedy Goblin Gem Collector Game
-#### week 4 jQuery - JS/jQuery - Patrick Skolsky
 ----
+
+This is a simple game, built with javascript and jQuery, and styled with CSS.  The object of the game is for the player to click on the 'gem' buttons so that they loot the exact number of gems that they currently have bagspace for.  If the player loots too many gems, they lose the game, and get sent to the dungeon for a timeout!
 
 ## Table of Contents
 * [Deployed Page](#deployed-page)
@@ -19,9 +20,7 @@ https://cerpinconsafo.github.io/Gem-Collector-Game/
 
 ## Updates
 
-Last Update:  09/18/19
 
-What was Updated: Added some additional styling and hover effects to our Gem Buttons.  Cleaned up styling.
 
 ----
 
