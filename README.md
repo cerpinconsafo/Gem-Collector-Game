@@ -1,70 +1,58 @@
 # Greedy Goblin Gem Collector Game
 ----
 
-This is a simple game, built with javascript and jQuery, and styled with CSS.  The object of the game is for the player to click on the 'gem' buttons so that they loot the exact number of gems that they currently have bagspace for.  If the player loots too many gems, they lose the game, and get sent to the dungeon for a timeout!
+This is a simple game, built with javascript and jQuery, and styled with CSS.  The object of the game is for the player to click on the 'gem' buttons so that they loot the exact number of gems that they currently have bagspace for.  If the player loots too many gems, they lose the game, and get sent to the dungeon for a timeout! 
 
+---
 ## Table of Contents
 * [Deployed Page](#deployed-page)
-* [Updates](#updates)
-* [Assigment Details](#assignment-details)
-* [Problems](#problems)
-
+* [Functionality](#functionality)
+* [Technologies](#technologies)
+* [Versioning](#versioning)
+* [Contributors](#contributors)
 
 ----
-
 ## Deployed Page
 
-https://cerpinconsafo.github.io/Gem-Collector-Game/
+[Greedy Goblin Gem Collector](https://cerpinconsafo.github.io/Gem-Collector-Game/)
+
+Nothing to install.  Visit the deployed page and enjoy!
 
 ----
+## Functionality
 
-## Updates
+The player needs to collect Gems, all of which have a random value, to end up matching the Goblin's Maximum Bagspace 
 
+   * The BAG SPACE number is chosen at random every time a new game begins.
 
+   * When the player clicks on a GEM, it will add a specific amount of gems to the bag. 
 
-----
+       * The player wins if their total score matches the random number from the beginning of the game.
 
-## Assignment Details
-
-### Option 1 : Crystal Collector
-In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
-
-1. [Watch the demo](https://youtu.be/yNI0l2FMeCk).
-
-2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
-
-3. Here's how the app works:
-
-   * There will be four crystals displayed as buttons on the page.
-
-   * The player will be shown a random number at the start of the game.
-
-   * When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
-
-     * Your game will hide this amount until the player clicks a crystal.
-     * When they do click one, update the player's score counter.
-
-   * The player wins if their total score matches the random number from the beginning of the game.
-
-   * The player loses if their score goes above the random number.
+       * The player loses if their score goes above the Goblin's Maxiumum Bagspace.
 
    * The game restarts whenever the player wins or loses.
 
-     * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
-
-   * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
-
-##### Option 1 Game design notes
-
-* The random number shown at the start of the game should be between 19 - 120.
-
-* Each crystal should have a random hidden value between 1 - 12.
+   * Each Gem value is unique and resets with each new game 
 
 ----
+## Technologies
 
-## Problems
+* [Bootstrap 4](https://getbootstrap.com/)
+  - A framework for building responsive, mobile-first sites.
+* [jQuery](https://api.jquery.com/category/ajax/)
+  - A fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
 
-This assignment was certainly challenging, but I never felt hopeless while I was programming.  It is certainly not perfect in its current state, and I will likely update more in the future to make it a bit more interactive and look a little cleaner.
+----
+## Versioning
+
+* V 1.0
+  - All components working
+  
+----
+## Contributors
+
+* [Patrick Skolsky (me)](https://github.com/cerpinconsafo) - sole contributor
 
 ----
 
